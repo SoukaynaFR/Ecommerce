@@ -1,0 +1,439 @@
+body {
+  margin: 0 11%;
+  font-family: "Kumbh Sans", sans-serif;
+}
+p {
+  font-size: 16px;
+  line-height: 2;
+  color: hsl(220, 14%, 75%);
+}
+h1 {
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+h3 {
+  font-weight: 700;
+}
+h6 {
+  color: hsl(26, 100%, 55%);
+}
+hr {
+  margin-bottom: 0;
+}
+
+.navv {
+  padding-bottom: 30px;
+  border-bottom: 1px solid hsl(220, 14%, 75%);
+}
+.navbar {
+  background-color: white;
+}
+
+.navbar-brand {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.nav-link {
+  font-size: 16px;
+}
+.marrr {
+  margin: auto 20px;
+}
+.marr {
+  margin: auto 2%;
+  display: inline-block;
+}
+.avatar {
+  width: 40px;
+}
+.avatar:hover {
+  border: 3px solid hsl(26, 100%, 55%);
+  border-radius: 50%;
+}
+.nav-btnn {
+  border-width: 0;
+}
+.right {
+  padding: 6rem 3rem;
+}
+.left {
+  padding: 6rem 3rem;
+}
+.main-img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+.thumb {
+  border-radius: 15px;
+  width: 100px;
+  background-color: white;
+}
+.thumb:hover {
+  opacity: 0.3;
+}
+.main-6 {
+  margin: 4rem auto 1rem;
+}
+.price {
+  display: inline-block;
+  margin-right: 10px;
+}
+.discount {
+  display: inline-block;
+  background-color: hsl(25, 100%, 94%);
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+.oldd {
+  line-height: 0;
+  margin-top: 10px;
+  text-decoration: line-through;
+}
+.btn-sec {
+  margin-top: 5rem;
+}
+.btnn {
+  width: 9rem;
+  background-color: hsl(223, 64%, 98%);
+  height: 56px;
+  border-radius: 8px;
+  border-width: 0;
+}
+.offcanvas {
+  width: 65%;
+}
+.xxx {
+  display: none;
+}
+.minus {
+  float: left;
+  margin-left: 10px;
+}
+.minus:hover {
+  opacity: 0.5;
+}
+.plus {
+  float: right;
+  margin-right: 10px;
+}
+.plus:hover {
+  opacity: 0.5;
+}
+.buy-btn {
+  height: 56px;
+  width: 15rem;
+  background-color: hsl(26, 100%, 55%);
+  border: 0;
+  color: white;
+  border-radius: 8px;
+  margin-left: 16px;
+  box-shadow: 0px 15px 20px rgba(255, 125, 26, 0.4);
+}
+.buy-btn:hover {
+  opacity: 0.5;
+}
+.btn-img {
+  width: 18px;
+  margin: auto 8px 3px auto;
+}
+
+.selected-img {
+  opacity: 0.3;
+}
+.selected-div {
+  background-color: white;
+  border: 3px solid hsl(26, 100%, 55%);
+  border-radius: 15px;
+  width: 104.51px;
+}
+.thumb-div {
+  background-color: white;
+  border-radius: 15px;
+  width: 100px;
+}
+
+.cart-btn {
+  border-width: 0;
+  background-color: white;
+}
+.cart {
+  display: none;
+  z-index: 1;
+  position: absolute;
+  margin: 80px auto auto 84%;
+  top: 0px;
+  right: 0;
+  width: 355px;
+  height: 230px;
+  background-color: white;
+  box-shadow: 0px 15px 20px rgba(192, 192, 192, 0.8);
+}
+.cart-header {
+  color: black;
+  font-weight: 700;
+  margin: 20px 15px;
+}
+.cart-p {
+  line-height: 0;
+  text-align: center;
+  margin-top: 85px;
+}
+.cart-inside {
+  padding: 20px;
+  display: none;
+}
+.cart-img {
+  float: left;
+  height: 50px;
+  width: 50px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.cart-pp {
+  margin: 10px 10px auto;
+  line-height: 0.4;
+  display: inline-block;
+}
+.cart-del {
+  border-width: 0;
+  background-color: white;
+  float: right;
+  margin-top: 15px;
+}
+.cart-btnn {
+  border-width: 0;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  color: white;
+  background-color: hsl(26, 100%, 55%);
+  height: 50px;
+  margin-top: 10px;
+}
+.cart-btnn:hover {
+  opacity: 0.5;
+}
+
+.cart-span {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 48px;
+  height: 42px;
+  padding-top: 6px;
+}
+.cart-span img {
+  padding-top: 10px;
+}
+.cart-span span {
+  background-color: hsl(26, 100%, 55%);
+  color: white;
+  font-size: 12px;
+  width: 16px;
+  line-height: 16px;
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+  left: 28px;
+  border-radius: 6px;
+}
+
+.blackk {
+  color: black;
+  font-weight: 700;
+}
+
+.previous,
+.next {
+  display: none;
+}
+
+@media (min-width: 767px) {
+  main-img:hover {
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    margin: auto 12px;
+  }
+  .right {
+    margin: 0;
+    padding: 0;
+  }
+  .left {
+    margin: 0px;
+    padding: 20px;
+  }
+  .thumbs {
+    display: none;
+  }
+  .main-img {
+    border-radius: 0;
+    height: 400px;
+  }
+
+  .main-6 {
+    margin-top: 0;
+  }
+
+  .navv {
+    padding: 0;
+  }
+  .navbar-brand {
+    margin-right: auto;
+    margin-left: 20px;
+  }
+  .marr {
+    margin-left: 10px;
+  }
+  .nav-btn {
+    width: 15%;
+  }
+  .btnn {
+    width: 100%;
+  }
+  .xxx {
+    display: block;
+    margin: auto 20px 20px;
+  }
+  .buy-btn {
+    margin: 12px 0 4rem;
+    width: 100%;
+  }
+  .oldd {
+    float: right;
+  }
+  .btn-sec {
+    margin-top: 20px;
+  }
+
+  .previous {
+    margin-left: 10px;
+    padding: 12px 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 179px;
+    display: block;
+    position: absolute;
+    float: left;
+    z-index: 1;
+  }
+  .next {
+    margin-right: 10px;
+    padding: 12px 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 179px;
+    right: 0;
+    display: block;
+    position: absolute;
+    float: right;
+    z-index: 1;
+  }
+  .next,
+  .previous:hover {
+    cursor: pointer;
+  }
+
+  .cart {
+    z-index: 10;
+    width: 100%;
+  }
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1050;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  text-align: center;
+  height: 600px;
+  border-width: 0;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 20px auto auto;
+  width: 542px;
+}
+
+/* The Close Button */
+.close {
+  height: 50px;
+  position: absolute;
+  right: 21px;
+  top: 0;
+  color: white;
+  float: right;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: hsl(26, 100%, 55%);
+  text-decoration: none;
+  cursor: pointer;
+}
+.thumb {
+  background-color: white;
+}
+.modal-content .main-img {
+  margin: 65px 21px 32px auto;
+  width: 500px;
+  height: 500px;
+}
+.modal-content .col {
+  width: 119px;
+}
+.modal-content .row {
+  padding-left: 22px;
+  width: 520px;
+  margin: 0;
+}
+.modal-content .thumb {
+  width: 90px;
+}
+.modal-content .thumb-div {
+  width: 90px;
+}
+.modal-content .selected-div {
+  width: 95px;
+}
+
+.previouss {
+  /* margin-left: 10px; */
+  padding: 12px 15px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 282.5px;
+  position: absolute;
+  float: left;
+}
+.nextt {
+  /* margin-right: 10px; */
+  padding: 12px 15px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 282.5px;
+  right: 0;
+  position: absolute;
+  float: right;
+}
+.nextt,
+.previouss:hover {
+  cursor: pointer;
+}

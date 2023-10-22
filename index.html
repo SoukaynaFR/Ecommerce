@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://w7.pngwing.com/pngs/606/578/png-transparent-ecommerce-website-ecommerce-online-shopping-store-online-shopping-shopping-store-shopping-3d-icon-thumbnail.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>E-commerce product page</title>
+  </head>
+  <body>
+    <nav class="navv navbar sticky-top navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="nav-btnn navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <img src="images/icon-menu.svg" alt="" />
+        </button>
+        <a class="navbar-brand" href="#">sneakers</a>
+        <div class="offcanvas offcanvas-start" id="navbarSupportedContent">
+          <div class="offcanvas-body">
+            <button
+              type="button"
+              class="xxx btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="marrr nav-link" href="#">Collections</a>
+              </li>
+              <li class="nav-item">
+                <a class="marrr nav-link" href="#">Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="marrr nav-link" href="#">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="marrr nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="marrr nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <button class="cart-btn">
+          <span class="cart-span">
+            <img class="marr" src="images/icon-cart.svg" alt="cart" />
+            <span class="cart-number"></span>
+          </span>
+        </button>
+        <img class="marr avatar" src="images/image-avatar.png" alt="avatar" />
+
+        <div class="cart">
+          <h6 class="cart-header">Cart</h6>
+          <hr />
+          <p class="cart-p">Your cart is empty.</p>
+          <div class="cart-inside">
+            <img
+              class="cart-img"
+              src="images/image-product-1-thumbnail.jpg"
+              alt=""
+            />
+            <p class="cart-pp">Fall Limited Edition Sneakers</p>
+            <button class="cart-del">
+              <img src="images/icon-delete.svg" alt="" />
+            </button>
+            <p class="cart-pp price-sec"></p>
+            <button class="cart-btnn">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main row">
+      <div class="right col col-lg-6 col-12">
+        <img class="previous" src="images/icon-previous.svg" alt="" />
+        <img class="next" src="images/icon-next.svg" alt="" />
+        <img
+          id="myBtn"
+          class="main-img"
+          src="images/image-product-1.jpg"
+          alt=""
+        />
+        <div class="row thumbs">
+          <div class="col col-3">
+            <div class="selected-div">
+              <img
+                class="selected-img thumb"
+                src="images/image-product-1-thumbnail.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col col-3">
+            <div class="thumb-div">
+              <img
+                class="thumb"
+                src="images/image-product-2-thumbnail.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col col-3">
+            <div class="thumb-div">
+              <img
+                class="thumb"
+                src="images/image-product-3-thumbnail.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col col-3">
+            <div class="thumb-div">
+              <img
+                class="thumb"
+                src="images/image-product-4-thumbnail.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="left col col-lg-6 col-12">
+        <h6 class="main-6">Sneaker Company</h6>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p>
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they’ll withstand everything
+          the weather can offer.
+        </p>
+        <h3 class="price">$125.00</h3>
+        <h6 class="discount">50%</h6>
+        <p class="oldd">$250.00</p>
+        <div class="btn-sec">
+          <button class="btnn">
+            <div class="minus">
+              <img src="images/icon-minus.svg" alt="" />
+            </div>
+            <span class="amount">0</span>
+            <div class="plus">
+              <img src="images/icon-plus.svg" alt="" />
+            </div>
+          </button>
+          <button class="buy-btn">
+            <img class="btn-img" src="images/icon-cart-white.svg" alt="" />
+            Add to cart
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img class="previouss" src="images/icon-previous.svg" alt="" />
+        <img class="nextt" src="images/icon-next.svg" alt="" />
+        <img class="main-img" src="images/image-product-1.jpg" alt="" />
+        <div class="row thumbs">
+          <div class="col col-3">
+            <div class="selected-div">
+              <img
+                id="first"
+                class="selected-img thumb"
+                src="images/image-product-1-thumbnail.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col col-3">
+            <div class="thumb-div">
+              <img
+                id="second"
+                class="thumb"
+                src="images/image-product-2-thumbnail.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col col-3">
+            <div class="thumb-div">
+              <img
+                id="third"
+                class="thumb"
+                src="images/image-product-3-thumbnail.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col col-3">
+            <div class="thumb-div">
+              <img
+                id="fourth"
+                class="thumb"
+                src="images/image-product-4-thumbnail.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
